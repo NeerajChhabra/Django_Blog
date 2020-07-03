@@ -1,23 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Post
-posts = [
-
-			{
-				'author': 'Neeraj',
-				'date_posted' : 'november, 24',
-				'title' : 'Django is great',
-				'content': "this is my post 1"
-			},
-
-			{
-				'author': 'Akshay',
-				'date_posted' : 'August, 09',
-				'title' : 'Django is really great',
-				'content': "this is my post 2"
-
-			}
-		]
 
 
 
